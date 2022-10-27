@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 import 'package:flutter_gradients/src/core/flutter_gradients_hex.dart';
 import 'package:flutter_gradients/src/core/create_radial_gradient.dart';
@@ -45,9 +44,9 @@ class FlutterRadialGradients {
 
   /// 1. Warm Flame
   static Gradient warmFlame({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Warm Flame",
@@ -65,9 +64,9 @@ class FlutterRadialGradients {
 
   /// 2. Night Fade
   static Gradient nightFade({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Night Fade",
@@ -81,9 +80,9 @@ class FlutterRadialGradients {
 
   /// 3. Spring Warmth
   static Gradient springWarmth({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Spring Warmth",
@@ -101,9 +100,9 @@ class FlutterRadialGradients {
 
   /// 4. Juicy Peach
   static Gradient juicyPeach({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Juicy Peach",
@@ -117,9 +116,9 @@ class FlutterRadialGradients {
 
   /// 5. Young Passion
   static Gradient youngPassion({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Young Passion",
@@ -140,9 +139,9 @@ class FlutterRadialGradients {
 
   /// 6. Lady Lips
   static Gradient ladyLips({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Lady Lips",
@@ -160,9 +159,9 @@ class FlutterRadialGradients {
 
   /// 7. Sunny Morning
   static Gradient sunnyMorning({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Sunny Morning",
@@ -176,9 +175,9 @@ class FlutterRadialGradients {
 
   /// 8. Rainy Ashville
   static Gradient rainyAshville({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Rainy Ashville",
@@ -192,9 +191,9 @@ class FlutterRadialGradients {
 
   /// 9. Frozen Dreams
   static Gradient frozenDreams({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Frozen Dreams",
@@ -212,9 +211,9 @@ class FlutterRadialGradients {
 
   /// 10. Winter Neva
   static Gradient winterNeva({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Winter Neva",
@@ -228,9 +227,9 @@ class FlutterRadialGradients {
 
   /// 11. Dusty Grass
   static Gradient dustyGrass({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Dusty Grass",
@@ -244,9 +243,9 @@ class FlutterRadialGradients {
 
   /// 12. Tempting Azure
   static Gradient temptingAzure({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Tempting Azure",
@@ -260,9 +259,9 @@ class FlutterRadialGradients {
 
   /// 13. Heavy Rain
   static Gradient heavyRain({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Heavy Rain",
@@ -276,9 +275,9 @@ class FlutterRadialGradients {
 
   /// 14. Amy Crisp
   static Gradient amyCrisp({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Amy Crisp",
@@ -292,9 +291,9 @@ class FlutterRadialGradients {
 
   /// 15. Mean Fruit
   static Gradient meanFruit({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Mean Fruit",
@@ -308,9 +307,9 @@ class FlutterRadialGradients {
 
   /// 16. Deep Blue
   static Gradient deepBlue({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Deep Blue",
@@ -324,9 +323,9 @@ class FlutterRadialGradients {
 
   /// 17. Ripe Malinka
   static Gradient ripeMalinka({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Ripe Malinka",
@@ -340,9 +339,9 @@ class FlutterRadialGradients {
 
   /// 18. Cloudy Knoxville
   static Gradient cloudyKnoxville({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Cloudy Knoxville",
@@ -356,9 +355,9 @@ class FlutterRadialGradients {
 
   /// 19. Malibu Beach
   static Gradient malibuBeach({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Malibu Beach",
@@ -372,9 +371,9 @@ class FlutterRadialGradients {
 
   /// 20. New Life
   static Gradient newLife({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "New Life",
@@ -388,9 +387,9 @@ class FlutterRadialGradients {
 
   /// 21. True Sunset
   static Gradient trueSunset({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "True Sunset",
@@ -404,9 +403,9 @@ class FlutterRadialGradients {
 
   /// 22. Morpheus Den
   static Gradient morpheusDen({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Morpheus Den",
@@ -420,9 +419,9 @@ class FlutterRadialGradients {
 
   /// 23. Rare Wind
   static Gradient rareWind({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Rare Wind",
@@ -436,9 +435,9 @@ class FlutterRadialGradients {
 
   /// 24. Near Moon
   static Gradient nearMoon({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Near Moon",
@@ -452,9 +451,9 @@ class FlutterRadialGradients {
 
   /// 25. Wild Apple
   static Gradient wildApple({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Wild Apple",
@@ -468,9 +467,9 @@ class FlutterRadialGradients {
 
   /// 26. Saint Petersburg
   static Gradient saintPetersburg({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Saint Petersburg",
@@ -484,9 +483,9 @@ class FlutterRadialGradients {
 
   /// 28. Plum Plate
   static Gradient plumPlate({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Plum Plate",
@@ -500,9 +499,9 @@ class FlutterRadialGradients {
 
   /// 29. Everlasting Sky
   static Gradient everlastingSky({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Everlasting Sky",
@@ -516,9 +515,9 @@ class FlutterRadialGradients {
 
   /// 30. Happy Fisher
   static Gradient happyFisher({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Happy Fisher",
@@ -532,9 +531,9 @@ class FlutterRadialGradients {
 
   /// 31. Blessing
   static Gradient blessing({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Blessing",
@@ -548,9 +547,9 @@ class FlutterRadialGradients {
 
   /// 32. Sharpeye Eagle
   static Gradient sharpeyeEagle({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Sharpeye Eagle",
@@ -564,9 +563,9 @@ class FlutterRadialGradients {
 
   /// 33. Ladoga Bottom
   static Gradient ladogaBottom({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Ladoga Bottom",
@@ -580,9 +579,9 @@ class FlutterRadialGradients {
 
   /// 34. Lemon Gate
   static Gradient lemonGate({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Lemon Gate",
@@ -596,9 +595,9 @@ class FlutterRadialGradients {
 
   /// 35. Itmeo Branding
   static Gradient itmeoBranding({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Itmeo Branding",
@@ -612,9 +611,9 @@ class FlutterRadialGradients {
 
   /// 36. Zeus Miracle
   static Gradient zeusMiracle({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Zeus Miracle",
@@ -628,9 +627,9 @@ class FlutterRadialGradients {
 
   /// 37. Old Hat
   static Gradient oldHat({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Old Hat",
@@ -651,9 +650,9 @@ class FlutterRadialGradients {
 
   /// 38. Star Wine
   static Gradient starWine({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Star Wine",
@@ -674,9 +673,9 @@ class FlutterRadialGradients {
 
   /// 39. Deep Blue
   static Gradient deepBlue2({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Deep Blue",
@@ -690,9 +689,9 @@ class FlutterRadialGradients {
 
   /// 41. Happy Acid
   static Gradient happyAcid({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Happy Acid",
@@ -706,9 +705,9 @@ class FlutterRadialGradients {
 
   /// 42. Awesome Pine
   static Gradient awesomePine({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Awesome Pine",
@@ -722,9 +721,9 @@ class FlutterRadialGradients {
 
   /// 43. New York
   static Gradient newYork({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "New York",
@@ -738,9 +737,9 @@ class FlutterRadialGradients {
 
   /// 44. Shy Rainbow
   static Gradient shyRainbow({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Shy Rainbow",
@@ -760,9 +759,9 @@ class FlutterRadialGradients {
 
   /// 46. Mixed Hopes
   static Gradient mixedHopes({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Mixed Hopes",
@@ -776,9 +775,9 @@ class FlutterRadialGradients {
 
   /// 47. Fly High
   static Gradient flyHigh({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Fly High",
@@ -792,9 +791,9 @@ class FlutterRadialGradients {
 
   /// 48. Strong Bliss
   static Gradient strongBliss({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Strong Bliss",
@@ -813,9 +812,9 @@ class FlutterRadialGradients {
 
   /// 49. Fresh Milk
   static Gradient freshMilk({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Fresh Milk",
@@ -829,9 +828,9 @@ class FlutterRadialGradients {
 
   /// 50. Snow Again
   static Gradient snowAgain({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Snow Again",
@@ -845,9 +844,9 @@ class FlutterRadialGradients {
 
   /// 51. February Ink
   static Gradient februaryInk({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "February Ink",
@@ -861,9 +860,9 @@ class FlutterRadialGradients {
 
   /// 52. Kind Steel
   static Gradient kindSteel({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Kind Steel",
@@ -877,9 +876,9 @@ class FlutterRadialGradients {
 
   /// 53. Soft Grass
   static Gradient softGrass({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Soft Grass",
@@ -893,9 +892,9 @@ class FlutterRadialGradients {
 
   /// 54. Grown Early
   static Gradient grownEarly({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Grown Early",
@@ -909,9 +908,9 @@ class FlutterRadialGradients {
 
   /// 55. Sharp Blues
   static Gradient sharpBlues({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Sharp Blues",
@@ -925,9 +924,9 @@ class FlutterRadialGradients {
 
   /// 56. Shady Water
   static Gradient shadyWater({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Shady Water",
@@ -941,9 +940,9 @@ class FlutterRadialGradients {
 
   /// 57. Dirty Beauty
   static Gradient dirtyBeauty({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Dirty Beauty",
@@ -957,9 +956,9 @@ class FlutterRadialGradients {
 
   /// 58. Great Whale
   static Gradient greatWhale({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Great Whale",
@@ -973,9 +972,9 @@ class FlutterRadialGradients {
 
   /// 59. Teen Notebook
   static Gradient teenNotebook({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Teen Notebook",
@@ -989,9 +988,9 @@ class FlutterRadialGradients {
 
   /// 60. Polite Rumors
   static Gradient politeRumors({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Polite Rumors",
@@ -1009,9 +1008,9 @@ class FlutterRadialGradients {
 
   /// 61. Sweet Period
   static Gradient sweetPeriod({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Sweet Period",
@@ -1035,9 +1034,9 @@ class FlutterRadialGradients {
 
   /// 62. Wide Matrix
   static Gradient wideMatrix({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Wide Matrix",
@@ -1059,9 +1058,9 @@ class FlutterRadialGradients {
 
   /// 63. Soft Cherish
   static Gradient softCherish({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Soft Cherish",
@@ -1084,9 +1083,9 @@ class FlutterRadialGradients {
 
   /// 64. Red Salvation
   static Gradient redSalvation({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Red Salvation",
@@ -1100,9 +1099,9 @@ class FlutterRadialGradients {
 
   /// 65. Burning Spring
   static Gradient burningSpring({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Burning Spring",
@@ -1124,9 +1123,9 @@ class FlutterRadialGradients {
 
   /// 66. Night Party
   static Gradient nightParty({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Night Party",
@@ -1140,9 +1139,9 @@ class FlutterRadialGradients {
 
   /// 67. Sky Glider
   static Gradient skyGlider({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Sky Glider",
@@ -1156,9 +1155,9 @@ class FlutterRadialGradients {
 
   /// 68. Heaven Peach
   static Gradient heavenPeach({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Heaven Peach",
@@ -1172,9 +1171,9 @@ class FlutterRadialGradients {
 
   /// 69. Purple Division
   static Gradient purpleDivision({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Purple Division",
@@ -1188,9 +1187,9 @@ class FlutterRadialGradients {
 
   /// 70. Aqua Splash
   static Gradient aquaSplash({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Aqua Splash",
@@ -1204,9 +1203,9 @@ class FlutterRadialGradients {
 
   /// 72. Spiky Naga
   static Gradient spikyNaga({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Spiky Naga",
@@ -1230,9 +1229,9 @@ class FlutterRadialGradients {
 
   /// 73. Love Kiss
   static Gradient loveKiss({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Love Kiss",
@@ -1246,9 +1245,9 @@ class FlutterRadialGradients {
 
   /// 75. Clean Mirror
   static Gradient cleanMirror({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Clean Mirror",
@@ -1262,9 +1261,9 @@ class FlutterRadialGradients {
 
   /// 76. Premium Dark
   static Gradient premiumDark({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Premium Dark",
@@ -1278,9 +1277,9 @@ class FlutterRadialGradients {
 
   /// 77. Cold Evening
   static Gradient coldEvening({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Cold Evening",
@@ -1299,9 +1298,9 @@ class FlutterRadialGradients {
 
   /// 78. Cochiti Lake
   static Gradient cochitiLake({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Cochiti Lake",
@@ -1315,9 +1314,9 @@ class FlutterRadialGradients {
 
   /// 79. Summer Games
   static Gradient summerGames({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Summer Games",
@@ -1331,9 +1330,9 @@ class FlutterRadialGradients {
 
   /// 80. Passionate Bed
   static Gradient passionateBed({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Passionate Bed",
@@ -1347,9 +1346,9 @@ class FlutterRadialGradients {
 
   /// 81. Mountain Rock
   static Gradient mountainRock({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Mountain Rock",
@@ -1363,9 +1362,9 @@ class FlutterRadialGradients {
 
   /// 82. Desert Hump
   static Gradient desertHump({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Desert Hump",
@@ -1379,9 +1378,9 @@ class FlutterRadialGradients {
 
   /// 83. Jungle Day
   static Gradient jungleDay({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Jungle Day",
@@ -1395,9 +1394,9 @@ class FlutterRadialGradients {
 
   /// 84. Phoenix Start
   static Gradient phoenixStart({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Phoenix Start",
@@ -1411,9 +1410,9 @@ class FlutterRadialGradients {
 
   /// 85. October Silence
   static Gradient octoberSilence({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "October Silence",
@@ -1427,9 +1426,9 @@ class FlutterRadialGradients {
 
   /// 86. Faraway River
   static Gradient farawayRiver({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Faraway River",
@@ -1443,9 +1442,9 @@ class FlutterRadialGradients {
 
   /// 87. Alchemist Lab
   static Gradient alchemistLab({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Alchemist Lab",
@@ -1459,9 +1458,9 @@ class FlutterRadialGradients {
 
   /// 88. Over Sun
   static Gradient overSun({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Over Sun",
@@ -1475,9 +1474,9 @@ class FlutterRadialGradients {
 
   /// 89. Premium White
   static Gradient premiumWhite({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Premium White",
@@ -1497,9 +1496,9 @@ class FlutterRadialGradients {
 
   /// 90. Mars Party
   static Gradient marsParty({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Mars Party",
@@ -1513,9 +1512,9 @@ class FlutterRadialGradients {
 
   /// 91. Eternal Constance
   static Gradient eternalConstance({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Eternal Constance",
@@ -1529,9 +1528,9 @@ class FlutterRadialGradients {
 
   /// 92. Japan Blush
   static Gradient japanBlush({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Japan Blush",
@@ -1549,9 +1548,9 @@ class FlutterRadialGradients {
 
   /// 93. Smiling Rain
   static Gradient smilingRain({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Smiling Rain",
@@ -1565,9 +1564,9 @@ class FlutterRadialGradients {
 
   /// 94. Cloudy Apple
   static Gradient cloudyApple({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Cloudy Apple",
@@ -1585,9 +1584,9 @@ class FlutterRadialGradients {
 
   /// 95. Big Mango
   static Gradient bigMango({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Big Mango",
@@ -1601,9 +1600,9 @@ class FlutterRadialGradients {
 
   /// 96. Healthy Water
   static Gradient healthyWater({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Healthy Water",
@@ -1617,9 +1616,9 @@ class FlutterRadialGradients {
 
   /// 97. Amour Amour
   static Gradient amourAmour({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Amour Amour",
@@ -1633,9 +1632,9 @@ class FlutterRadialGradients {
 
   /// 98. Risky Concrete
   static Gradient riskyConcrete({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Risky Concrete",
@@ -1653,9 +1652,9 @@ class FlutterRadialGradients {
 
   /// 99. Strong Stick
   static Gradient strongStick({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Strong Stick",
@@ -1669,9 +1668,9 @@ class FlutterRadialGradients {
 
   /// 100. Vicious Stance
   static Gradient viciousStance({
-    AlignmentGeometry center,
-    double radius,
-    TileMode tileMode,
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
   }) =>
       radial(
         "Vicious Stance",
@@ -1684,8 +1683,11 @@ class FlutterRadialGradients {
       );
 
   /// 101. Palo Alto
-  static Gradient paloAlto(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient paloAlto({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Palo Alto",
         center,
@@ -1697,8 +1699,11 @@ class FlutterRadialGradients {
       );
 
   /// 102. Happy Memories
-  static Gradient happyMemories(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient happyMemories({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Happy Memories",
         center,
@@ -1710,8 +1715,11 @@ class FlutterRadialGradients {
       );
 
   /// 103. Midnight Bloom
-  static Gradient midnightBloom(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient midnightBloom({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Midnight Bloom",
         center,
@@ -1723,8 +1731,11 @@ class FlutterRadialGradients {
       );
 
   /// 104. Crystalline
-  static Gradient crystalline(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient crystalline({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Crystalline",
         center,
@@ -1736,8 +1747,11 @@ class FlutterRadialGradients {
       );
 
   /// 106. Party Bliss
-  static Gradient partyBliss(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient partyBliss({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Party Bliss",
         center,
@@ -1749,8 +1763,11 @@ class FlutterRadialGradients {
       );
 
   /// 107. Confident Cloud
-  static Gradient confidentCloud(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient confidentCloud({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Confident Cloud",
         center,
@@ -1766,8 +1783,11 @@ class FlutterRadialGradients {
       );
 
   /// 108. Le Cocktail
-  static Gradient leCocktail(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient leCocktail({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Le Cocktail",
         center,
@@ -1779,8 +1799,11 @@ class FlutterRadialGradients {
       );
 
   /// 109. River City
-  static Gradient riverCity(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient riverCity({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "River City",
         center,
@@ -1792,8 +1815,11 @@ class FlutterRadialGradients {
       );
 
   /// 110. Frozen Berry
-  static Gradient frozenBerry(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient frozenBerry({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Frozen Berry",
         center,
@@ -1805,8 +1831,11 @@ class FlutterRadialGradients {
       );
 
   /// 112. Child Care
-  static Gradient childCare(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient childCare({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Child Care",
         center,
@@ -1818,8 +1847,11 @@ class FlutterRadialGradients {
       );
 
   /// 113. Flying Lemon
-  static Gradient flyingLemon(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient flyingLemon({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Flying Lemon",
         center,
@@ -1831,8 +1863,11 @@ class FlutterRadialGradients {
       );
 
   /// 114. New Retrowave
-  static Gradient newRetrowave(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient newRetrowave({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "New Retrowave",
         center,
@@ -1848,8 +1883,11 @@ class FlutterRadialGradients {
       );
 
   /// 115. Hidden Jaguar
-  static Gradient hiddenJaguar(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient hiddenJaguar({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Hidden Jaguar",
         center,
@@ -1861,16 +1899,19 @@ class FlutterRadialGradients {
       );
 
   /// 116. Above The Sky
-  static Gradient aboveTheSky(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient aboveTheSky({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Above The Sky",
         center,
         radius,
         -90.0,
         [
-          Colors.grey[300],
-          Colors.grey[300],
+          Colors.grey[300]!,
+          Colors.grey[300]!,
           stringToColor("#e0e0e0"),
           stringToColor("#efefef"),
           stringToColor("#d9d9d9"),
@@ -1881,8 +1922,11 @@ class FlutterRadialGradients {
       );
 
   /// 117. Nega
-  static Gradient nega(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient nega({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Nega",
         center,
@@ -1894,8 +1938,11 @@ class FlutterRadialGradients {
       );
 
   /// 118. Dense Water
-  static Gradient denseWater(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient denseWater({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Dense Water",
         center,
@@ -1911,8 +1958,11 @@ class FlutterRadialGradients {
       );
 
   /// 120. Seashore
-  static Gradient seashore(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient seashore({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Seashore",
         center,
@@ -1924,8 +1974,11 @@ class FlutterRadialGradients {
       );
 
   /// 121. Marble Wall
-  static Gradient marbleWall(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient marbleWall({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Marble Wall",
         center,
@@ -1941,8 +1994,11 @@ class FlutterRadialGradients {
       );
 
   /// 122. Cheerful Caramel
-  static Gradient cheerfulCaramel(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient cheerfulCaramel({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Cheerful Caramel",
         center,
@@ -1954,8 +2010,11 @@ class FlutterRadialGradients {
       );
 
   /// 123. Night Sky
-  static Gradient nightSky(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient nightSky({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Night Sky",
         center,
@@ -1971,8 +2030,11 @@ class FlutterRadialGradients {
       );
 
   /// 124. Magic Lake
-  static Gradient magicLake(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient magicLake({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Magic Lake",
         center,
@@ -1988,8 +2050,11 @@ class FlutterRadialGradients {
       );
 
   /// 125. Young Grass
-  static Gradient youngGrass(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient youngGrass({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Young Grass",
         center,
@@ -2001,8 +2066,11 @@ class FlutterRadialGradients {
       );
 
   /// 126. Colorful Peach
-  static Gradient colorfulPeach(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient colorfulPeach({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Colorful Peach",
         center,
@@ -2014,8 +2082,11 @@ class FlutterRadialGradients {
       );
 
   /// 127. Gentle Care
-  static Gradient gentleCare(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient gentleCare({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Gentle Care",
         center,
@@ -2027,8 +2098,11 @@ class FlutterRadialGradients {
       );
 
   /// 128. Plum Bath
-  static Gradient plumBath(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient plumBath({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Plum Bath",
         center,
@@ -2040,8 +2114,11 @@ class FlutterRadialGradients {
       );
 
   /// 129. Happy Unicorn
-  static Gradient happyUnicorn(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient happyUnicorn({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Happy Unicorn",
         center,
@@ -2053,8 +2130,11 @@ class FlutterRadialGradients {
       );
 
   /// 131. African Field
-  static Gradient africanField(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient africanField({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "African Field",
         center,
@@ -2072,8 +2152,11 @@ class FlutterRadialGradients {
       );
 
   /// 132. Solid Stone
-  static Gradient solidStone(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient solidStone({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Solid Stone",
         center,
@@ -2085,8 +2168,11 @@ class FlutterRadialGradients {
       );
 
   /// 133. Orange Juice
-  static Gradient orangeJuice(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient orangeJuice({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Orange Juice",
         center,
@@ -2098,8 +2184,11 @@ class FlutterRadialGradients {
       );
 
   /// 134. Glass Water
-  static Gradient glassWater(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient glassWater({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Glass Water",
         center,
@@ -2111,8 +2200,11 @@ class FlutterRadialGradients {
       );
 
   /// 136. North Miracle
-  static Gradient northMiracle(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient northMiracle({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "North Miracle",
         center,
@@ -2124,8 +2216,11 @@ class FlutterRadialGradients {
       );
 
   /// 137. Fruit Blend
-  static Gradient fruitBlend(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient fruitBlend({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Fruit Blend",
         center,
@@ -2137,8 +2232,11 @@ class FlutterRadialGradients {
       );
 
   /// 138. Millennium Pine
-  static Gradient millenniumPine(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient millenniumPine({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Millennium Pine",
         center,
@@ -2150,8 +2248,11 @@ class FlutterRadialGradients {
       );
 
   /// 139. High Flight
-  static Gradient highFlight(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient highFlight({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "High Flight",
         center,
@@ -2163,8 +2264,11 @@ class FlutterRadialGradients {
       );
 
   /// 140. Mole Hall
-  static Gradient moleHall(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient moleHall({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Mole Hall",
         center,
@@ -2176,8 +2280,11 @@ class FlutterRadialGradients {
       );
 
   /// 142. Space Shift
-  static Gradient spaceShift(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient spaceShift({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Space Shift",
         center,
@@ -2194,8 +2301,11 @@ class FlutterRadialGradients {
       );
 
   /// 143. Forest Inei
-  static Gradient forestInei(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient forestInei({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Forest Inei",
         center,
@@ -2207,8 +2317,11 @@ class FlutterRadialGradients {
       );
 
   /// 144. Royal Garden
-  static Gradient royalGarden(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient royalGarden({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Royal Garden",
         center,
@@ -2220,8 +2333,11 @@ class FlutterRadialGradients {
       );
 
   /// 145. Rich Metal
-  static Gradient richMetal(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient richMetal({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Rich Metal",
         center,
@@ -2233,8 +2349,11 @@ class FlutterRadialGradients {
       );
 
   /// 146. Juicy Cake
-  static Gradient juicyCake(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient juicyCake({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Juicy Cake",
         center,
@@ -2246,8 +2365,11 @@ class FlutterRadialGradients {
       );
 
   /// 147. Smart Indigo
-  static Gradient smartIndigo(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient smartIndigo({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Smart Indigo",
         center,
@@ -2259,8 +2381,11 @@ class FlutterRadialGradients {
       );
 
   /// 148. Sand Strike
-  static Gradient sandStrike(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient sandStrike({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Sand Strike",
         center,
@@ -2276,8 +2401,11 @@ class FlutterRadialGradients {
       );
 
   /// 149. Norse Beauty
-  static Gradient norseBeauty(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient norseBeauty({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Norse Beauty",
         center,
@@ -2289,8 +2417,11 @@ class FlutterRadialGradients {
       );
 
   /// 150. Aqua Guidance
-  static Gradient aquaGuidance(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient aquaGuidance({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Aqua Guidance",
         center,
@@ -2302,8 +2433,11 @@ class FlutterRadialGradients {
       );
 
   /// 151. Sun Veggie
-  static Gradient sunVeggie(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient sunVeggie({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Sun Veggie",
         center,
@@ -2315,8 +2449,11 @@ class FlutterRadialGradients {
       );
 
   /// 152. Sea Lord
-  static Gradient seaLord(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient seaLord({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Sea Lord",
         center,
@@ -2332,8 +2469,11 @@ class FlutterRadialGradients {
       );
 
   /// 153. Black Sea
-  static Gradient blackSea(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient blackSea({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Black Sea",
         center,
@@ -2349,8 +2489,11 @@ class FlutterRadialGradients {
       );
 
   /// 154. Grass Shampoo
-  static Gradient grassShampoo(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient grassShampoo({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Grass Shampoo",
         center,
@@ -2366,8 +2509,11 @@ class FlutterRadialGradients {
       );
 
   /// 155. Landing Aircraft
-  static Gradient landingAircraft(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient landingAircraft({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Landing Aircraft",
         center,
@@ -2383,8 +2529,11 @@ class FlutterRadialGradients {
       );
 
   /// 156. Witch Dance
-  static Gradient witchDance(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient witchDance({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Witch Dance",
         center,
@@ -2396,8 +2545,11 @@ class FlutterRadialGradients {
       );
 
   /// 157. Sleepless Night
-  static Gradient sleeplessNight(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient sleeplessNight({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Sleepless Night",
         center,
@@ -2413,8 +2565,11 @@ class FlutterRadialGradients {
       );
 
   /// 158. Angel Care
-  static Gradient angelCare(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient angelCare({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Angel Care",
         center,
@@ -2430,8 +2585,11 @@ class FlutterRadialGradients {
       );
 
   /// 159. Crystal River
-  static Gradient crystalRiver(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient crystalRiver({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Crystal River",
         center,
@@ -2447,8 +2605,11 @@ class FlutterRadialGradients {
       );
 
   /// 160. Soft Lipstick
-  static Gradient softLipstick(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient softLipstick({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Soft Lipstick",
         center,
@@ -2460,8 +2621,11 @@ class FlutterRadialGradients {
       );
 
   /// 161. Salt Mountain
-  static Gradient saltMountain(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient saltMountain({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Salt Mountain",
         center,
@@ -2473,8 +2637,11 @@ class FlutterRadialGradients {
       );
 
   /// 162. Perfect White
-  static Gradient perfectWhite(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient perfectWhite({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Perfect White",
         center,
@@ -2486,8 +2653,11 @@ class FlutterRadialGradients {
       );
 
   /// 163. Fresh Oasis
-  static Gradient freshOasis(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient freshOasis({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Fresh Oasis",
         center,
@@ -2499,8 +2669,11 @@ class FlutterRadialGradients {
       );
 
   /// 164. Strict November
-  static Gradient strictNovember(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient strictNovember({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Strict November",
         center,
@@ -2512,8 +2685,11 @@ class FlutterRadialGradients {
       );
 
   /// 165. Morning Salad
-  static Gradient morningSalad(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient morningSalad({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Morning Salad",
         center,
@@ -2525,8 +2701,11 @@ class FlutterRadialGradients {
       );
 
   /// 166. Deep Relief
-  static Gradient deepRelief(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient deepRelief({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Deep Relief",
         center,
@@ -2542,8 +2721,11 @@ class FlutterRadialGradients {
       );
 
   /// 167. Sea Strike
-  static Gradient seaStrike(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient seaStrike({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Sea Strike",
         center,
@@ -2559,8 +2741,11 @@ class FlutterRadialGradients {
       );
 
   /// 168. Night Call
-  static Gradient nightCall(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient nightCall({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Night Call",
         center,
@@ -2576,8 +2761,11 @@ class FlutterRadialGradients {
       );
 
   /// 169. Supreme Sky
-  static Gradient supremeSky(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient supremeSky({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Supreme Sky",
         center,
@@ -2593,8 +2781,11 @@ class FlutterRadialGradients {
       );
 
   /// 170. Light Blue
-  static Gradient lightBlue(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient lightBlue({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Light Blue",
         center,
@@ -2610,8 +2801,11 @@ class FlutterRadialGradients {
       );
 
   /// 171. Mind Crawl
-  static Gradient mindCrawl(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient mindCrawl({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Mind Crawl",
         center,
@@ -2627,8 +2821,11 @@ class FlutterRadialGradients {
       );
 
   /// 172. Lily Meadow
-  static Gradient lilyMeadow(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient lilyMeadow({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Lily Meadow",
         center,
@@ -2644,8 +2841,11 @@ class FlutterRadialGradients {
       );
 
   /// 173. Sugar Lollipop
-  static Gradient sugarLollipop(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient sugarLollipop({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Sugar Lollipop",
         center,
@@ -2661,8 +2861,11 @@ class FlutterRadialGradients {
       );
 
   /// 174. Sweet Dessert
-  static Gradient sweetDessert(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient sweetDessert({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Sweet Dessert",
         center,
@@ -2678,8 +2881,11 @@ class FlutterRadialGradients {
       );
 
   /// 175. Magic Ray
-  static Gradient magicRay(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient magicRay({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Magic Ray",
         center,
@@ -2695,8 +2901,11 @@ class FlutterRadialGradients {
       );
 
   /// 176. Teen Party
-  static Gradient teenParty(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient teenParty({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Teen Party",
         center,
@@ -2712,8 +2921,11 @@ class FlutterRadialGradients {
       );
 
   /// 177. Frozen Heat
-  static Gradient frozenHeat(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient frozenHeat({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Frozen Heat",
         center,
@@ -2729,8 +2941,11 @@ class FlutterRadialGradients {
       );
 
   /// 178. Gagarin View
-  static Gradient gagarinView(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient gagarinView({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Gagarin View",
         center,
@@ -2746,8 +2961,11 @@ class FlutterRadialGradients {
       );
 
   /// 179. Fabled Sunset
-  static Gradient fabledSunset(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient fabledSunset({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Fabled Sunset",
         center,
@@ -2764,8 +2982,11 @@ class FlutterRadialGradients {
       );
 
   /// 180. Perfect Blue
-  static Gradient perfectBlue(
-          {AlignmentGeometry center, double radius, TileMode tileMode}) =>
+  static Gradient perfectBlue({
+    AlignmentGeometry center = Alignment.center,
+    double radius = 0.5,
+    TileMode tileMode = TileMode.clamp,
+  }) =>
       radial(
         "Perfect Blue",
         center,
