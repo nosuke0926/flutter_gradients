@@ -1940,22 +1940,22 @@ class FlutterSweepGradients {
       );
 
   /// 106. Party Bliss
-  static Gradient partyBliss({
-    AlignmentGeometry center = Alignment.center,
-    double startAngle = 0.0,
-    double endAngle = math.pi * 2,
-    TileMode tileMode = TileMode.clamp,
-  }) =>
-      sweep(
-        "Party Bliss",
-        center,
-        startAngle,
-        endAngle,
-        -90.0,
-        [stringToColor("#4481eb"), stringToColor("#04befe")],
-        [0.0, 1.0],
-        tileMode,
-      );
+  // static Gradient partyBliss({
+  //   AlignmentGeometry center = Alignment.center,
+  //   double startAngle = 0.0,
+  //   double endAngle = math.pi * 2,
+  //   TileMode tileMode = TileMode.clamp,
+  // }) =>
+  //     sweep(
+  //       "Party Bliss",
+  //       center,
+  //       startAngle,
+  //       endAngle,
+  //       -90.0,
+  //       [stringToColor("#4481eb"), stringToColor("#04befe")],
+  //       [0.0, 1.0],
+  //       tileMode,
+  //     );
 
   /// 107. Confident Cloud
   static Gradient confidentCloud({

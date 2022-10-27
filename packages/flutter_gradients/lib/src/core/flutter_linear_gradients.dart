@@ -1049,13 +1049,13 @@ class FlutterLinearGradients {
       );
 
   /// 106. Party Bliss
-  static Gradient partyBliss({required TileMode tileMode}) => linear(
-        "Party Bliss",
-        -90.0,
-        [stringToColor("#4481eb"), stringToColor("#04befe")],
-        [0.0, 1.0],
-        tileMode,
-      );
+  // static Gradient partyBliss({required TileMode tileMode}) => linear(
+  //       "Party Bliss",
+  //       -90.0,
+  //       [stringToColor("#4481eb"), stringToColor("#04befe")],
+  //       [0.0, 1.0],
+  //       tileMode,
+  //     );
 
   /// 107. Confident Cloud
   static Gradient confidentCloud({required TileMode tileMode}) => linear(

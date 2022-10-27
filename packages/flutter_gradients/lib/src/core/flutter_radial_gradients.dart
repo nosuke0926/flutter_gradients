@@ -1747,20 +1747,20 @@ class FlutterRadialGradients {
       );
 
   /// 106. Party Bliss
-  static Gradient partyBliss({
-    AlignmentGeometry center = Alignment.center,
-    double radius = 0.5,
-    TileMode tileMode = TileMode.clamp,
-  }) =>
-      radial(
-        "Party Bliss",
-        center,
-        radius,
-        -90.0,
-        [stringToColor("#4481eb"), stringToColor("#04befe")],
-        [0.0, 1.0],
-        tileMode,
-      );
+  // static Gradient partyBliss({
+  //   AlignmentGeometry center = Alignment.center,
+  //   double radius = 0.5,
+  //   TileMode tileMode = TileMode.clamp,
+  // }) =>
+  //     radial(
+  //       "Party Bliss",
+  //       center,
+  //       radius,
+  //       -90.0,
+  //       [stringToColor("#4481eb"), stringToColor("#04befe")],
+  //       [0.0, 1.0],
+  //       tileMode,
+  //     );
 
   /// 107. Confident Cloud
   static Gradient confidentCloud({

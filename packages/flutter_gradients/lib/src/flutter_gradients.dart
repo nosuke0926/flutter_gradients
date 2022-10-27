@@ -2888,29 +2888,29 @@ class FlutterGradients {
   }
 
   /// Party Bliss
-  static Gradient partyBliss(
-      {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
-      double startAngle = 0.0,
-      double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
-    if (type == GradientType.radial)
-      return FlutterRadialGradients.partyBliss(
-        center: center,
-        radius: radius,
-        tileMode: tileMode,
-      );
-    else if (type == GradientType.sweep)
-      return FlutterSweepGradients.partyBliss(
-        center: center,
-        startAngle: startAngle,
-        endAngle: endAngle,
-        tileMode: tileMode,
-      );
-    else
-      return FlutterLinearGradients.partyBliss(tileMode: tileMode);
-  }
+  // static Gradient partyBliss(
+  //     {GradientType type = GradientType.linear,
+  //     AlignmentGeometry center = Alignment.center,
+  //     double radius = 0.5,
+  //     double startAngle = 0.0,
+  //     double endAngle = math.pi * 2,
+  //     TileMode tileMode = TileMode.repeated}) {
+  //   if (type == GradientType.radial)
+  //     return FlutterRadialGradients.partyBliss(
+  //       center: center,
+  //       radius: radius,
+  //       tileMode: tileMode,
+  //     );
+  //   else if (type == GradientType.sweep)
+  //     return FlutterSweepGradients.partyBliss(
+  //       center: center,
+  //       startAngle: startAngle,
+  //       endAngle: endAngle,
+  //       tileMode: tileMode,
+  //     );
+  //   else
+  //     return FlutterLinearGradients.partyBliss(tileMode: tileMode);
+  // }
 
   /// Passionate Bed
   static Gradient passionateBed(
@@ -5401,14 +5401,14 @@ class FlutterGradients {
             radius: radius,
             tileMode: tileMode);
 
-      case "Party Bliss":
-        return partyBliss(
-            type: type,
-            endAngle: endAngle,
-            startAngle: startAngle,
-            center: center,
-            radius: radius,
-            tileMode: tileMode);
+      // case "Party Bliss":
+      //   return partyBliss(
+      //       type: type,
+      //       endAngle: endAngle,
+      //       startAngle: startAngle,
+      //       center: center,
+      //       radius: radius,
+      //       tileMode: tileMode);
 
       case "Confident Cloud":
         return confidentCloud(
