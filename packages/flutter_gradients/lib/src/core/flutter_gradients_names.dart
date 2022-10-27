@@ -98,7 +98,7 @@ enum FlutterGradientNames {
   happyMemories,
   midnightBloom,
   crystalline,
-  partyBliss,
+  // partyBliss,
   confidentCloud,
   leCocktail,
   riverCity,

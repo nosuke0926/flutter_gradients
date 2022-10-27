@@ -200,7 +200,7 @@ class FlutterGradients {
     "Happy Memories",
     "Midnight Bloom",
     "Crystalline",
-    // "Party Bliss",
+    "Party Bliss",
     "Confident Cloud",
     "Le Cocktail",
     "River City",
